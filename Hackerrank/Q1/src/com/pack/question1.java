@@ -10,7 +10,8 @@ public class question1 {
     public static void main(String[] args){
         List<Integer> numbers = new ArrayList<Integer>();
         List<Integer> numbers2 = new ArrayList<Integer>();
-        numbers = Arrays.asList(10,15,3,1,6,11);
+
+      //  numbers = Arrays.asList(10,15,3,1,6,11);
         numbers.add(10);
         numbers.add(15);
         numbers.add(3);
