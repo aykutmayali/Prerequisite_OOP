@@ -25,6 +25,20 @@ public class question2 {
             return false;
         }
     }
+    public static boolean isValidSubsequence2(List<Integer> array, List<Integer> sequence) {
+        int seqId =0;
+        for(var value:array){
+            if(seqId == sequence.size()){
+                break;
+            }
+            if(sequence.get(seqId).equals(value)){
+                seqId++;
+            }
+        }
+        return seqId == sequence.size();
+
+    }
+
     public static void main(String[] Args){
         List<Integer> array = Arrays.asList(5,1,22,25,6,-1,8,10);
         List<Integer> sequnce = Arrays.asList(5,1,22,25,6,-1,8,10,10);
